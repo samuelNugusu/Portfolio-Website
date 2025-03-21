@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/imgs/favicon.ico">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <title>Samuel - Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-main" style="scroll-behavior: smooth; background-image: url('assets/imgs/2.jpg');">
+  <main>
+  <!-- Navbar Section -->
+<nav id="navbar-main" class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-white" href="#" style="font-family: Italic;Font-weight:bold">Samuel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#header">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Header Section -->
+  <header id="header"
+    class="min-vh-100 d-flex justify-content-center align-items-center text-center position-relative overflow-hidden" style="background:rgb(255, 119, 183);background-image: url('assets/imgs/B4.jpg'); " >
+    <div class="header-bg"></div>
+    <div class="container">
+      <div class="header-content" data-aos="zoom-in-up">
+        <h1 class="display-1 fw-bold mb-4 text-3d" style="font-family: Italic;Color:aqua">I’m Samuel</h1>
+        <h2 class="typed-text mb-4 neon-text">A <span id="typed" class="fw-bold"></span></h2>
+        <p class="lead mb-5 futuristic-text" style="Font-family:Italic">Crafting immersive digital experiences that defy the ordinary. Let’s build
+          the future together.</p>
+        <a href="#about" class="btn btn-neon mt-3" style="font-family: italic;width:80px;font-size:11px ;color:rgb(25, 56, 255)">Discover More</a>
+      </div>
+      <div class="social-icons" data-aos="fade-up" data-aos-delay="300">
+        <ul class="list-unstyled d-flex justify-content-center gap-4">
+          <li><a href="#" class="neon-icon"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+          <li><a href="#" class="neon-icon"><i class="fab fa-twitter fa-2x"></i></a></li>
+          <li><a href="#" class="neon-icon"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+          <li><a href="#" class="neon-icon"><i class="fab fa-github fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- About Section -->
+  <section id="about" class="py-5 position-relative overflow-hidden" style="background-image: url('assets/imgs/B2.jpg');">
+    <div class="about-bg"></div>
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5 text-3d" data-aos="zoom-in">About Me</h2>
+      <div class="row align-items-center">
+        <!-- About Image -->
+        <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
+          <div class="image-wrapper">
+            <img src="./assets/imgs/hero.jpg" class="img-fluid rounded shadow-neon" alt="Samuel Profile">
+          </div>
+        </div>
+        <!-- About Content -->
+        <div class="col-lg-7" data-aos="fade-left">
+          <h3 class="neon-text mb-4" style="font-family: Italic;Font-size:16px ;color:brown">Visionary Creator</h3>
+          <p class="futuristic-text mb-4">
+            I’m Samuel Nugusu, a digital innovator pushing boundaries in web design and development.
+            With a fusion of creativity and cutting-edge tech, I craft experiences that captivate and inspire.
+          </p>
+          <!-- Skills Progress Bars -->
+          <div class="skills mt-4">
+            <div class="skill-item mb-4">
+              <span class="skill-label neon-text" style="font-family: Italic;Font-size:16px ;color:rgb(255, 255, 255)">Web Design</span>
+              <div class="progress glow-progress">
+                <div class="progress-bar bg-neon" role="progressbar" style="width: 0%;" data-width="95" aria-valuenow="95"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <span class="skill-label neon-text" style="font-family: Italic;Font-size:16px ;color:rgb(255, 255, 255)">UI/UX Design</span>
+              <div class="progress glow-progress">
+                <div class="progress-bar bg-neon" role="progressbar" style="width: 0%;" data-width="85" aria-valuenow="85"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <span class="skill-label neon-text" style="font-family: Italic;Font-size:16px ;color:rgb(255, 255, 255)">Development</span>
+              <div class="progress glow-progress">
+                <div class="progress-bar bg-neon" role="progressbar" style="width: 0%;" data-width="90" aria-valuenow="90"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Buttons -->
+          <div class="mt-4">
+            <a href="#" class="btn btn-neon me-3" style="font-size: 12px; width:100px;color:rgb(0, 0, 0);background:rgb(75, 246, 161)">Download Cv</a>
+            <a href="#contact" class="btn btn-neon-outline">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Services Section -->
+<section id="services" class="py-5 text-center position-relative overflow-hidden" style="background-image: url('assets/imgs/B1.jpg');">
+  <div class="services-bg"></div>
+  <div class="container">
+    <h2 class="fw-bold mb-5 text-3d" data-aos="zoom-in">My Services</h2>
+    <div class="row g-4">
+      <!-- Service Card 1 -->
+      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="100">
+        <div class="service-card">
+          <i class="fas fa-laptop-code fa-4x neon-icon mb-3"></i>
+          <h3 class="neon-text">Web Development</h3>
+          <p class="futuristic-text">Building lightning-fast, responsive websites that redefine digital presence.</p>
+        </div>
+      </div>
+      <!-- Service Card 2 -->
+      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="200">
+        <div class="service-card">
+          <i class="fas fa-paint-brush fa-4x neon-icon mb-3"></i>
+          <h3 class="neon-text">UI/UX Design</h3>
+          <p class="futuristic-text">Designing sleek, intuitive interfaces that users can’t resist.</p>
+        </div>
+      </div>
+      <!-- Service Card 3 -->
+      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="300">
+        <div class="service-card">
+          <i class="fas fa-bullhorn fa-4x neon-icon mb-3"></i>
+          <h3 class="neon-text">Branding</h3>
+          <p class="futuristic-text">Crafting bold identities that echo across the digital realm.</p>
+        </div>
+      </div>
+      <!-- Service Card 4 -->
+      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="400">
+        <div class="service-card">
+          <i class="fas fa-mobile-alt fa-4x neon-icon mb-3"></i>
+          <h3 class="neon-text">Responsive Design</h3>
+          <p class="futuristic-text">Ensuring flawless experiences on every screen, everywhere.</p>
+        </div>
+      </div>
+      <!-- Service Card 5 -->
+      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="500">
+        <div class="service-card">
+          <i class="fas fa-code fa-4x neon-icon mb-3"></i>
+          <h3 class="neon-text">Custom Solutions</h3>
+          <p class="futuristic-text">Tailoring unique tech to solve your wildest challenges.</p>
+        </div>
+      </div>
+      <!-- Service Card 6 -->
+      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="600">
+        <div class="service-card">
+          <i class="fas fa-camera fa-4x neon-icon mb-3"></i>
+          <h3 class="neon-text">Visual Content</h3>
+          <p class="futuristic-text">Creating jaw-dropping visuals that tell your story.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-5 text-center position-relative overflow-hidden" style="background-image: url('assets/imgs/B3.jpg');">
+    <div class="portfolio-bg"></div>
+    <div class="container">
+      <h2 class="fw-bold mb-5 text-3d" data-aos="zoom-in">Portfolio</h2>
+      <!-- Filter Buttons -->
+      <div class="filter-buttons mb-5" data-aos="fade-up" data-aos-delay="200">
+        <button class="btn btn-neon-filter active" data-filter="all">All</button>
+        <button class="btn btn-neon-filter" data-filter="web">Web</button>
+        <button class="btn btn-neon-filter" data-filter="design">Design</button>
+        <button class="btn btn-neon-filter" data-filter="branding">Branding</button>
+      </div>
+      <!-- Portfolio Items -->
+      <div class="row g-4 portfolio-gallery">
+        <!-- Item 1 -->
+        <div class="col-md-6 col-lg-4 portfolio-item" data-category="web" data-aos="flip-up">
+          <div class="portfolio-card">
+            <img src="./assets/imgs/B1.jpg" class="img-fluid" alt="Web Project">
+            <div class="portfolio-overlay">
+              <h5 class="neon-text">Web Project</h5>
+              <p class="futuristic-text">A cutting-edge web solution.</p>
+              <div class="icons mt-3">
+                <a href="#" class="neon-icon mx-2"><i class="fas fa-link"></i></a>
+                <a href="#" class="neon-icon mx-2"><i class="fas fa-search-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="col-md-6 col-lg-4 portfolio-item" data-category="design" data-aos="flip-up" data-aos-delay="100">
+          <div class="portfolio-card">
+            <img src="./assets/imgs/B2.jpg" class="img-fluid" alt="Design Project">
+            <div class="portfolio-overlay">
+              <h5 class="neon-text">Design Project</h5>
+              <p class="futuristic-text">Stunning UI/UX innovation.</p>
+              <div class="icons mt-3">
+                <a href="#" class="neon-icon mx-2"><i class="fas fa-link"></i></a>
+                <a href="#" class="neon-icon mx-2"><i class="fas fa-search-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="col-md-6 col-lg-4 portfolio-item" data-category="branding" data-aos="flip-up" data-aos-delay="200">
+          <div class="portfolio-card">
+            <img src="./assets/imgs/B3.jpg" class="img-fluid" alt="Branding Project">
+            <div class="portfolio-overlay">
+              <h5 class="neon-text">Branding Project</h5>
+              <p class="futuristic-text">Bold identity creation.</p>
+              <div class="icons mt-3">
+                <a href="#" class="neon-icon mx-2"><i class="fas fa-link"></i></a>
+                <a href="#" class="neon-icon mx-2"><i class="fas fa-search-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="col-md-6 col-lg-4 portfolio-item" data-category="web" data-aos="flip-up" data-aos-delay="300">
+          <div class="portfolio-card">
+            <img src="./assets/imgs/B4.jpg" class="img-fluid" alt="Web Project">
+            <div class="portfolio-overlay">
+              <h5 class="neon-text">Web Project</h5>
+              <p class="futuristic-text">Next-level digital experience.</p>
+              <div class="icons mt-3">
+                <a href="#" class="neon-icon mx-2"><i class="fas fa-link"></i></a>
+                <a href="#" class="neon-icon mx-2"><i class="fas fa-search-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Clients Section -->
+<section id="clients" class="py-5 position-relative overflow-hidden" style="background-image: url('assets/imgs/B1.jpg');">
+  <div class="clients-bg"></div>
+  <div class="container">
+    <!-- Counter Stats -->
+    <div class="row text-center mb-5" data-aos="fade-up">
+      <div class="col-md-3">
+        <div class="counter-item">
+          <i class="fas fa-users fa-3x neon-icon mb-3"></i>
+          <h3 class="counter neon-text" data-target="500">0</h3>
+          <p class="futuristic-text">Happy Clients</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="counter-item">
+          <i class="fas fa-briefcase fa-3x neon-icon mb-3"></i>
+          <h3 class="counter neon-text" data-target="300">0</h3>
+          <p class="futuristic-text">Projects Completed</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="counter-item">
+          <i class="fas fa-code fa-3x neon-icon mb-3"></i>
+          <h3 class="counter neon-text" data-target="10000">0</h3>
+          <p class="futuristic-text">Lines of Code</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="counter-item">
+          <i class="fas fa-award fa-3x neon-icon mb-3"></i>
+          <h3 class="counter neon-text" data-target="50">0</h3>
+          <p class="futuristic-text">Awards Won</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials Carousel -->
+    <h2 class="fw-bold text-center mb-5 text-3d" data-aos="zoom-in" style="background-image: url('assets/imgs/B1.jpg');">What Clients Say</h2>
+    <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up"
+      data-aos-delay="200">
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+          <div class="testimonial-card">
+            <img src="./assets/imgs/1.jpg" class="rounded-circle mb-3 neon-avatar" alt="Client 1">
+            <p class="futuristic-text lead">"Samuel turned our vision into a mind-blowing reality. Exceptional work!"
+            </p>
+            <h5 class="neon-text">John Doe</h5>
+            <p class="futuristic-text">CEO, TechCorp</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-card">
+            <img src="./assets/imgs/2.jpg" class="rounded-circle mb-3 neon-avatar" alt="Client 2">
+            <p class="futuristic-text lead">"A true master of design and code. Our project was a game-changer."</p>
+            <h5 class="neon-text">Jane Smith</h5>
+            <p class="futuristic-text">Founder, CreativeLabs</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev neon-control" type="button" data-bs-target="#testimonialsCarousel"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next neon-control" type="button" data-bs-target="#testimonialsCarousel"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Team Section -->
+  <section id="team" class="py-5 text-center position-relative overflow-hidden">
+    <div class="team-bg" style="background-image: url('assets/imgs/B1.jpg');"></div>
+    <div class="container">
+      <h2 class="fw-bold mb-5 text-3d" data-aos="zoom-in">Our Team</h2>
+      <div class="row g-4">
+        <!-- Team Member 1 -->
+        <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="100">
+          <div class="team-card">
+            <div class="team-img">
+              <img src="./assets/imgs/hero.jpg" class="img-fluid rounded-top" alt="Samuel Nugusu">
+              <div class="team-overlay">
+                <div class="social-links">
+                  <a href="#" class="neon-icon mx-2"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="neon-icon mx-2"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="neon-icon mx-2"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="team-info">
+              <h4 class="neon-text">Samuel Nugusu</h4>
+              <p class="futuristic-text">Digital Architect</p>
+            </div>
+          </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="200">
+          <div class="team-card">
+            <div class="team-img">
+              <img src="./assets/imgs/2.jpg" class="img-fluid rounded-top" alt="Betlihem Habitamu">
+              <div class="team-overlay">
+                <div class="social-links">
+                  <a href="#" class="neon-icon mx-2"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="neon-icon mx-2"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="neon-icon mx-2"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="team-info">
+              <h4 class="neon-text">Betelhem Habitamu</h4>
+              <p class="futuristic-text">UI/UX Visionary</p>
+            </div>
+          </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="300">
+          <div class="team-card">
+            <div class="team-img">
+              <img src="./assets/imgs/B3.jpg" class="img-fluid rounded-top" alt="Lemma Dagne">
+              <div class="team-overlay">
+                <div class="social-links">
+                  <a href="#" class="neon-icon mx-2"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="neon-icon mx-2"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="neon-icon mx-2"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="team-info">
+              <h4 class="neon-text">Lemma Dagne</h4>
+              <p class="futuristic-text">Branding Maestro</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 position-relative overflow-hidden" style="background-image: url('assets/imgs/B1.jpg');">
+    <div class="contact-bg"></div>
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5 text-3d" data-aos="zoom-in">Get in Touch</h2>
+      <div class="row g-4">
+        <!-- Contact Info -->
+        <div class="col-lg-4" data-aos="fade-right">
+          <div class="contact-info text-center">
+            <div class="contact-item mb-5">
+              <i class="fas fa-envelope fa-3x neon-icon mb-3"></i>
+              <h5 class="neon-text">Email</h5>
+              <p class="futuristic-text">samuelnugusu12@example.com</p>
+            </div>
+            <div class="contact-item mb-5">
+              <i class="fas fa-phone fa-3x neon-icon mb-3"></i>
+              <h5 class="neon-text">Phone</h5>
+              <p class="futuristic-text">+251 953 420 346</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt fa-3x neon-icon mb-3"></i>
+              <h5 class="neon-text">Location</h5>
+              <p class="futuristic-text">Addis Ababa, Ethiopia</p>
+            </div>
+          </div>
+        </div>
+        <!-- Contact Form -->
+        <div class="col-lg-8" data-aos="fade-left">
+          <form id="contactForm" action="./php/contact.php" method="POST" class="contact-form">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input type="text" class="form-control neon-input" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control neon-input" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-control neon-input" name="subject" placeholder="Subject" required>
+              </div>
+              <div class="col-12">
+                <textarea class="form-control neon-input" name="message" rows="5" placeholder="Your Message"
+                  required></textarea>
+              </div>
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-neon" style="width:80px;height:40px;font-size:12px;background:aquamarine;color:black;text-align:center;margin-left:250px">Send Message</button>
+              </div>
+            </div>
+            <div id="formMessage" class="mt-3 text-center futuristic-text"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+            </main>
+            <!-- Footer Section -->
+            <footer class="py-5 position-relative overflow-hidden" style="background-image: url('assets/imgs/B1.jpg');">
+              <div class="footer-bg"></div>
+              <div class="container text-center">
+                <h3 class="neon-text mb-4">Samuel Nugusu</h3>
+                <p class="futuristic-text mb-4">© 2025 | Crafting the Future of Digital Experiences</p>
+                <div class="social-links" data-aos="fade-up" data-aos-delay="200">
+                  <a href="#" class="neon-icon mx-3"><i class="fab fa-facebook-f fa-2x"></i></a>
+                  <a href="#" class="neon-icon mx-3"><i class="fab fa-twitter fa-2x"></i></a>
+                  <a href="#" class="neon-icon mx-3"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                  <a href="#" class="neon-icon mx-3"><i class="fab fa-github fa-2x"></i></a>
+                </div>
+              </div>
+            </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+ 
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./assets/js/index.js"></script>
+
+<!-- Back to Top Button -->
+<!-- <div id="backToTop" class="back-to-top d-none" style="background-image: url('assets/imgs/B1.jpg');">
+  <a href="#header" class="btn-neon">
+    <i class="fas fa-rocket"></i>
+    <span class="btn-text" style="width:70px;background:black">Top</span>
+  </a>
+</div> -->
+
+<!-- Back to Top Button -->
+<div id="backToTop" class="back-to-top d-none">
+  <a href="#header" class="btn-neon">
+    <i class="fas fa-rocket"></i>
+    <span class="btn-text">Top</span>
+  </a>
+</div>
+</body>
+
+</html>
